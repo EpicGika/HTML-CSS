@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+html{
+    height: 1500px;
+}
+
+/* header */
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+
+}
+
+a:hover{
+    background-color: rgb(187, 184, 184);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.fa-house{
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.fa-magnifying-glass{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.logo{
+    background-color: #009688;
+}
+
+.parent-link{
+    background-color: rgb(187, 184, 184);
+    display: flex;
+    flex-direction: column;
+    margin-left: 370px;
+    width: 130px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.drop:hover + .parent-link{
+    visibility: visible;
+}
+
+/* image */
+
+.main-img{
+    width: 100%;
+    min-height: 350px;
+    max-height: 600px;
+}
+
+.learn{
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+    background-color: black;
+    font-size: 25px;
+}
+
+.learn:hover{
+    background-color: #009688;
+}
+
+
+/* team  */
+.team, .meet{
+    text-align: center;
+}
+
+.team{
+    margin-bottom: 14px;
+}
+
+.members{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.division{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* Our Work */
+
+.gray{
+    background-color: #333333;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-work{
+    width: 25%;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    height: 360px;
+    width: 20%;
+    line-height: 30px;
+}
+
+.cutomer-img{
+    height: 160px;
+    width: 100%;
+
+}
+
+.white h3,p{
+    padding-left: 12px ;
+}
+
+.our-work h2{
+    padding-left: 7px;
+}
+.our-work p{
+    margin-top: 20px;
+    line-height: 25px;
+    padding-left: 7px;
+}
